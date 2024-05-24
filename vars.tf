@@ -5,7 +5,7 @@ variable AWS_REGION {
 variable AMIS {
   type = map
   default = {
-    us-east-2  = "ami-07efac79022b86107"
+    us-east-2  = "ami-0f30a9c3a48f3fa79"
     us-east-1  = "ami-06397100adf427136"
     ap-south-1 = "ami-009110a2bf8d7dd0a"
   }
@@ -24,7 +24,7 @@ variable USERNAME {
 }
 
 variable MYIP {
-  default = "183.83.39.2/32"
+  default = "113.199.130.117/32"
 }
 
 variable rmquser {
